@@ -1,0 +1,341 @@
+/* INTRO */
+#intro {
+    background: url(imagenes/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Oswald';
+    display: flex;
+}
+
+#intro .izquierda {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 66%;
+    padding: 65px 75px;
+}
+
+#intro .derecha {
+    width: 67%;
+    color: #fff;
+    height: 503px;
+    background-image: linear-gradient(180deg, rgba(25,255,255,0) 80%, #fff 80%);
+}
+
+#intro .contenido {
+    background-color: #7f0000;
+    padding: 1px 50px 40px 50px;
+}
+
+#intro .izquierda p {
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+#intro h1 {
+    font-size: 66px;
+    font-weight: 100;
+    letter-spacing: 19px;
+}
+
+#intro a, #servicios a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 7px;
+    border-bottom: 2px solid #7f0000;
+    padding-bottom: 13px;
+    padding: 0px 18px 13px 10px;
+}
+
+#intro .derecha a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    display: inline-block;
+}
+#intro .derecha p {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+/* SERVICIOS */
+
+#servicios {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.rojo {
+    color: #7f0000;
+}
+
+#servicios .cero {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+#servicios .ini {
+    letter-spacing: 15px;
+    font-size: 15px;
+}
+
+#servicios h2 {
+    font-size: 63px;
+    font-weight: 100;
+    letter-spacing: 16px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+#servicios p {
+    font-family: 'Open Sans';
+    color: #666;
+    font-size: 15px;
+    width: 73%;
+    margin: auto;
+    line-height: 30px;
+}
+
+#servicios a {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.contenedor-servicios {
+    display: flex;
+    margin-top: 50px;
+    width: 88%;
+    margin: auto;
+}
+
+#servicios #uno {
+    background: #2A2E3F;
+    color: #fff;
+    width: 33%;
+}
+
+#uno p, #dos p, #tres p {
+    color: #fff;
+    text-align: justify;
+    width: 100%;
+}
+
+h3 {
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.servicio {
+    padding: 45px 47px;
+    box-shadow: 50px 70px 120px -42px rgba(0,0,0,0.3);
+}
+
+#dos {
+    background: #7f0000;
+    color:#fff;
+    position: relative;
+    top: 120px;
+    width: 33%;
+}
+
+#tres {
+    width: 33%;
+}
+
+#tres p {
+    color:#000;
+}
+
+#servicios img {
+    padding-top: 10px;
+    width: 100%;
+}
+
+/* SECCION DE VIDEO */
+
+#section-video {
+    padding-top: 90px;
+    text-align: center;
+}
+  
+#section-video .contenedor {
+    position: relative;
+}
+  
+#section-video .botones {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+}
+  
+#section-video i {
+    font-size: 125px;
+    color: #fff;
+}
+
+#section-video button {
+    border: 0;
+    background: none;
+}
+
+/* SECCION ÚNETE */
+
+#unete {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+#unete .izquierda{
+    width: 49%;
+    background: #7f0000;
+    margin-left: 100px;
+    height: 340px;
+    position: relative;
+}
+
+#unete img {
+    width: 47%;
+}
+
+#unete .derecha {
+    width: 53%;
+    position: relative;
+    background: url(imagenes/unete-back.jpg);
+    background-size: cover;
+}
+
+#unete .izquierda a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Oswald';
+    letter-spacing: 15px;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+#unete #uno {
+    position: absolute;
+    top: 24%;
+    left: 56%;
+    z-index: 1;
+    width: 44%;
+}
+
+#unete #dos {
+    position: absolute;
+    top: -44%;
+}
+
+#unete #tres {
+    position: absolute;
+    left: 47%;
+    top: 24%;
+    width: 44%;
+}
+
+/* CONTACTO */
+
+#contacto {
+    background: url(imagenes/contacto.jpg);
+    font-family: 'Oswald';
+    color: #fff;
+    display: flex;
+}
+
+#contacto .izquierda {
+    padding: 100px;
+    width: 43%;
+}
+
+#contacto .izquierda p {
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+#contacto h2 {
+    font-size: 66px;
+    font-weight: 100;
+    letter-spacing: 19px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+#contacto form input[type="text"], #contacto form input[type="email"], #contacto form textarea {
+    width: 100%;
+    border: 0px;
+    background: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 34px;
+    font-family: 'Oswald';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input[type="submit"] {
+    background: none;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Oswald';
+    letter-spacing: 5px;
+    float: right;
+}
+
+#contacto .derecha {
+    background: #7f0000;
+    align-items: flex-end;
+    padding: 5px 50px 50px 50px;
+    width: 36%;
+}
+
+.horario {
+    box-shadow: 0px 70px 120px -42px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-bottom: 32px;
+}
+
+.horario ul {
+    padding: 0;
+}
+
+.horario li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.gratis {
+    background: #fff;
+    color: #000;
+    padding: 30px;
+}
+
+.gratis a {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #7f0000;
+    padding: 22px 30px;
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}

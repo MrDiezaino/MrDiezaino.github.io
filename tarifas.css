@@ -1,0 +1,187 @@
+.rojo {
+    color: #7f0000;
+}
+
+#matricula {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+#matricula .ini {
+    letter-spacing: 15px;
+    font-size: 15px;
+}
+
+#matricula .cero {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+#tarifas h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #7f0000!important;
+    letter-spacing: 1px;
+}
+
+#tarifas h3 {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+#tarifas {
+    padding-top: 40px;
+}
+
+#tarifas h2, #tarifas h3 {
+    text-align: center;
+    margin: 0;
+    font-family: 'Rubik';
+}
+
+#tarifas h3 {
+    font-weight: bold;
+}
+
+.contenedor-precios {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tarifas .tabla{
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 59px;
+}
+
+#tarifas ul {
+    padding: 0px;
+}
+
+#tarifas .tabla li:nth-child(1) {
+    font-family: 'Rubik';
+    color: #7f0000;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -21px;
+}
+
+#tarifas .tabla .euro {
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+}
+
+#tarifas .tabla .numero {
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 14px;
+}
+
+#tarifas .mes {
+    color: #999;
+}
+
+#tarifas .tabla li:nth-child(2) {
+    list-style: none;
+    margin-bottom: 48px;
+    margin-left: -21px;
+}
+
+#tarifas .item {
+    color: #7f0000;
+    margin-bottom: 27px;
+}
+
+#tarifas #dos .item {
+    color: #7f0000;
+}
+
+#tarifas .item span {
+    color: #666;
+}
+
+#tarifas #tres .item {
+    color: #7f0000;
+}
+
+#tarifas #dos a {
+    color: #7f0000;
+    background: rgba(255, 143, 0, 0.1);
+}
+
+#tarifas #uno a{
+    color: #fff;
+    background: #7f0000;
+}
+
+#tarifas #tres a {
+    color: #fff;
+    background: #7f0000;
+}
+
+#tarifas #seis a {
+    color: #fff;
+    background: #7f0000;
+}
+
+#tarifas #siete a {
+    color: #7f0000;
+    background: rgba(255, 143, 0, 0.1);
+}
+
+#tarifas #ocho a {
+    color: #fff;
+    background: #7f0000;
+}
+
+#tarifas #dos li:nth-child(1) {
+    color: #7f0000;
+}
+
+#tarifas #tres li:nth-child(1) {
+    color: #7f0000;
+}
+
+#tarifas #cuatro li:nth-child(1) {
+    color: #253547;
+}
+
+#tarifas #cinco li:nth-child(1) {
+    color: #253547;
+}
+
+#tarifas #cuatro .item, #cinco .item {
+    color: #425263;
+}
+
+#tarifas .no-incluido {
+    text-align: center;
+    list-style: none;
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+#tarifas #dos .no-incluido {
+    color: #ccc;
+}
+
+#tarifas .tabla {
+    position: relative;
+}
+
+#tarifas hr {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    border-color: #2423230d;
+}

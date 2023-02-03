@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>FloridaGym</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+
+            <div class="contenedor">
+                <img class="logo" src="imagenes/logoFloridaGym.png">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tarifas.html">Tarifas</a></li>
+                        <li><a href="horarios.html">Horarios</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="izquierda">
+            <p>START.GET READY.ACHIVE</p>
+            <h1>FLORIDA GYM</h1>
+            <a href="">EMPIEZA HOY</a>
+        </div>
+        <div class="derecha">
+            <div class="contenido">
+                <p>PRUEBA 1 DÍA GRATIS</p>
+                <a href="">ADELANTE</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>NUESTROS SERVICIOS</h2>
+        <p>En nuestro gimnasio podrás disfrutar de una amplia sala con el mejor material y herramientas para tus sesiones de entrenamiento, al igual que de una variedad de clases y actividades para mantenerte en forma y divertirte</p>
+        <a href="">TODOS</a>
+        <div class="contenedor-servicios">
+            <div class="servicio" id="uno">
+                <h3>ENTRENAMIENTO EN SALA</h3>
+                <p>
+                    Entrena con nuestra extensa variedad de máquinas, mancuernas y
+                    accesorios para lograr tus objetivos, o déjate asesorar por nuestros
+                    increíbles monitores siempre dispuestos a ayudarte en lo necesario.
+                </p>
+                <img src="imagenes/instalaciones.jpg" alt="">
+            </div>
+            <div class="servicio" id="dos">
+                <h3>CLASES COLECTIVAS</h3>
+                <p>
+                    En FloridaGym contamos con un diverso grupo de clases colectivas 
+                    para todo tipo de públicos. Una forma divertida y exigente de 
+                    ponerte en forma, acompañado de los mejores profesionales.
+                </p>
+                <img src="imagenes/clases_colectivas.jpg" alt="">
+            </div>
+            <div class="servicio" id="tres">
+                <h3>ARTES MARCIALES</h3>
+                <p>
+                    ¿Te interesan el Boxeo, Kung-Fu, Kick-Boxing u otras disciplinas?
+                    Te cubrimos! En FloridaGym tenemos un espacio reservado para la
+                    realización de estas actividades.
+                </p>
+                <img src="imagenes/kickboxing.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="section-video">
+        <div class="contenedor">
+            <div class="izquierda">
+                <video id="video" width="900px" height="600px" src="imagenes/video.mp4"></video>
+                <div class="botones">
+                    <button id="boton" onclick="playVideo()">
+                        <i class="far fa-play-circle"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        var video = document.getElementById('video');
+        var boton = document.getElementById('boton');
+
+        function playVideo() {
+            video.play();
+            boton.style.display = 'none';
+        }
+
+        video.addEventListener('ended', function() {
+            boton.style.display = 'block';
+        })
+    </script>
+    
+    <section id="unete">
+        <div class="izquierda">
+            <a href="tarifas.html">EMPIEZA YA</a>
+            <img id="uno" src="imagenes/izq.jpg" alt="">
+        </div>
+        <div class="derecha">
+            <img id="dos" src="imagenes/der1.jpg" alt="">
+            <img id="tres" src="imagenes/der2.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="izquierda">
+            <p>START.GET READY.ACHIVE</p>
+            <h2>CONTACTO</h2>
+            <form action="">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Mensaje"></textarea>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </div>
+        <div class="derecha">
+            <div class="horario">
+                <h3>HORARIO</h3>
+                <ul>
+                    <li>Lunes-Viernes: 7:30 - 23:00</li>
+                    <li>Sábado: 09:30 - 14:00</li>
+                    <li>Domingo: 10:00 - 14:00</li>
+                </ul>
+            </div>
+            <div class="gratis">
+                <h3>PRUEBA 1 DÍA GRATIS!</h3>
+                <a href="">CANJEAR</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

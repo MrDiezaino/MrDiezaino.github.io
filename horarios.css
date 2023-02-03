@@ -1,0 +1,95 @@
+.tg  {
+    table-layout: fixed; 
+    width: 859px;
+    border-collapse:collapse;
+    border-spacing:0;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#clases-colectivas {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:'Oswald', sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    font-family:'Oswald', sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg tbody tr {
+    border: 1px solid;
+}
+
+.tg tbody tr:last-of-type {
+    border-bottom: 3px solid #343630;
+}
+
+.tg .tg-rvg7{background-color:#dae285;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-cfyw{background-color:#f29313;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-axa6{background-color:#E4097E;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-40tt{background-color:#343630;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-cvza{background-color:#807027;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-agr0{background-color:#ba7433;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-3d3w{background-color:#F29313;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-qrvc{background-color:#AE4A83;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-de1y{border-color:#ffffff;color:#2a2929;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-vu5a{background-color:#A7D4AF;border-color:#ffffff;color:#EFEFEF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-7ybb{background-color:#631528;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-ust1{background-color:#727270;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-otlz{background-color:#a7d4af;border-color:#ffffff;color:#efefef;font-size:100%;font-weight:bold;text-align:center;
+  vertical-align:top}
+.tg .tg-e73k{background-color:#009845;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-onhb{background-color:#e46754;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-wp8o{border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-k6mx{background-color:#008CBB;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-bk6l{background-color:#C4C6C6;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-zpzv{background-color:#008CBB;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-k8rt{background-color:#b9d5e6;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-g373{background-color:#BA7433;border-color:#ffffff;color:#EFEFEF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-leon{background-color:#2a2929;border-color:#2a2929;text-align:left;vertical-align:top}
+.tg .tg-elnp{background-color:#2a2929;border-color:#2a2929;text-align:center;vertical-align:top}
+.tg .tg-73oq{
+    border-color:#ffffff;
+    text-align:left;
+    vertical-align:top
+}
+.tg .tg-l2zs{
+    border-color:#ffffff;
+    border-bottom: 2px solid #343630;
+    color:#2a2929;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
+.tg .tg-85ng{background-color:#6665CD;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-mcqj{border-color:#ffffff;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-r4k1{background-color:#ba7433;border-color:#ffffff;color:#efefef;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-qhw2{background-color:#ffec00;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-mmpx{background-color:#008cbb;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-u8rp{border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5qh6{background-color:#cf2522;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-jzyx{background-color:#c4c6c6;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-cixt{background-color:#727270;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-t4sd{background-color:#343630;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-81aj{background-color:#E46754;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-l49g{border-color:#ffffff;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-mmec{background-color:#ae4a83;border-color:#ffffff;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-iiz2{background-color:#b98025;border-color:#ffffff;color:#FFF;font-weight:bold;text-align:center;vertical-align:top}
