@@ -185,3 +185,54 @@
     width: 100%;
     border-color: #2423230d;
 }
+
+#footer {
+    height: 100px;
+}
+
+/* POP UP */
+
+.popup {
+    top: 20%;
+    position: fixed;
+    left: 35%;
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 1px 1px 7px #000;
+    text-align: center;
+}
+
+.popup p {
+    color:#000;
+    font-weight: bold;
+}
+
+.popup input[type="submit"] {
+    display: block;
+    width: 166px;
+    margin: auto;
+    margin-top: 5px;
+    background: #7f0000;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.popup input[type="text"] {
+    padding: 15px;
+    font-size: 15px;
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.popup .cerrar {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    color: #fff;
+    background: #7f0000;
+    width: 30px;
+    cursor: pointer;
+}
